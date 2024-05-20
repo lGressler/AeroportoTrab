@@ -9,7 +9,9 @@ void menu() {
     char letra;
     
     do {
-        printf("\n1. Cadastrar aviao\n2. Listar avioes cadastrados\n3. Autorizar decolagem\n4. Executar decolagem\n5. Autorizar aterrissagem\n6. Executar aterrissagem\n7. Proximas decolagens\n8. Proximas aterrissagens\n9. Relatorio do aeroporto\n10. Remover aviao cadastrado\n11. Consultar historico de operacoes de um aviao\n0. Sair\nEscolha uma opcao: ");
+        printf("===================================");
+        printf("\n1. Cadastrar aviao\n2. Listar avioes cadastrados\n3. Autorizar decolagem\n4. Executar decolagem\n5. Autorizar aterrissagem\n6. Executar aterrissagem\n7. Proximas decolagens\n8. Proximas aterrissagens\n9. Relatorio do aeroporto\n10. Remover aviao cadastrado\n11. Consultar historico de operacoes de um aviao\n0. Sair\nEscolha uma opcao: \n");
+        printf("===================================");
         scanf("%d", &opcao);
         
         switch (opcao) {
